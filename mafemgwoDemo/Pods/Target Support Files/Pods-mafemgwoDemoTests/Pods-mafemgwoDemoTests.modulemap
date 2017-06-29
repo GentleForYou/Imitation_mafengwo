@@ -1,0 +1,6 @@
+framework module Pods_mafemgwoDemoTests {
+  umbrella header "Pods-mafemgwoDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

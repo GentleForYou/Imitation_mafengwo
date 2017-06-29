@@ -1,0 +1,26 @@
+
+platform :ios, '9.0'
+
+target 'mafemgwoDemo' do
+  use_frameworks!  
+
+	pod 'Alamofire', '~> 3.1’
+	pod 'SwiftyJSON'
+	pod 'Kingfisher'
+	pod 'SwiftyUserDefaults'
+	pod 'PKHUD', '~> 4.0'
+
+
+  target 'mafemgwoDemoTests' do
+    inherit! :search_paths
+	pod 'Quick'
+    	pod 'Nimble'
+  end
+
+  target 'mafemgwoDemoUITests' do
+    inherit! :search_paths
+	pod 'Quick'
+    	pod 'Nimble'
+  end
+
+end
