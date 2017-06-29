@@ -29,11 +29,11 @@
             </objects>
             <point key="canvasLocation" x="202" y="-594"/>
         </scene>
-        <!--Item-->
+        <!--目的地-->
         <scene sceneID="V9I-37-MSp">
             <objects>
                 <navigationController id="SKD-UT-c0P" customClass="BaseNavigationController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="zOd-e4-XV0"/>
+                    <tabBarItem key="tabBarItem" title="目的地" image="ic_tabbar_local" selectedImage="ic_tabbar_local_selected" id="zOd-e4-XV0"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="iSF-xh-clq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -86,11 +86,11 @@
             </objects>
             <point key="canvasLocation" x="202" y="-1245"/>
         </scene>
-        <!--Item-->
+        <!--首页-->
         <scene sceneID="pc0-yw-l3r">
             <objects>
                 <navigationController id="xyB-g5-psI" customClass="BaseNavigationController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="5CP-c4-VQb"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="ic_tabbar_dicovery" selectedImage="ic_tabbar_dicovery_selected" id="5CP-c4-VQb"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="fRl-S8-Xdy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -123,11 +123,11 @@
             </objects>
             <point key="canvasLocation" x="201" y="60"/>
         </scene>
-        <!--Item-->
+        <!--旅游商城-->
         <scene sceneID="D3u-dx-nI0">
             <objects>
                 <navigationController id="gzj-KC-k63" customClass="BaseNavigationController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="toj-qM-CzU"/>
+                    <tabBarItem key="tabBarItem" title="旅游商城" image="ic_tabbar_mall" selectedImage="ic_tabbar_mall_selected" id="toj-qM-CzU"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="X6A-YX-uZH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -160,11 +160,11 @@
             </objects>
             <point key="canvasLocation" x="201" y="713"/>
         </scene>
-        <!--Item-->
+        <!--我的-->
         <scene sceneID="WOV-0d-wcR">
             <objects>
                 <navigationController id="txu-Mz-msC" customClass="BaseNavigationController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="m1E-RQ-w2C"/>
+                    <tabBarItem key="tabBarItem" title="我的" image="ic_tabbar_mine" selectedImage="ic_tabbar_mine_select" id="m1E-RQ-w2C"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3Ex-ul-YEm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -178,4 +178,14 @@
             <point key="canvasLocation" x="-471" y="713"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ic_tabbar_dicovery" width="24" height="24"/>
+        <image name="ic_tabbar_dicovery_selected" width="24" height="24"/>
+        <image name="ic_tabbar_local" width="24" height="24"/>
+        <image name="ic_tabbar_local_selected" width="24" height="24"/>
+        <image name="ic_tabbar_mall" width="24" height="24"/>
+        <image name="ic_tabbar_mall_selected" width="24" height="24"/>
+        <image name="ic_tabbar_mine" width="24" height="24"/>
+        <image name="ic_tabbar_mine_select" width="24" height="24"/>
+    </resources>
 </document>
