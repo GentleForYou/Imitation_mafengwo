@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +11,7 @@
         <!--目的地-->
         <scene sceneID="28g-cq-t3n">
             <objects>
-                <viewController id="e3Q-Lv-DQL" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DestinationViewController" id="e3Q-Lv-DQL" customClass="DestinationViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eGc-P2-6Pn"/>
                         <viewControllerLayoutGuide type="bottom" id="S4c-Cb-u4N"/>
@@ -69,7 +68,7 @@
         <!--首页-->
         <scene sceneID="Hq7-tB-9ji">
             <objects>
-                <viewController id="QQY-N8-1WU" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="QQY-N8-1WU" customClass="HomeViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n2g-4Q-NdH"/>
                         <viewControllerLayoutGuide type="bottom" id="cxA-xe-0Ju"/>
@@ -106,7 +105,7 @@
         <!--旅行商城-->
         <scene sceneID="fiB-mE-2hG">
             <objects>
-                <viewController id="TDG-qZ-PId" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TourStoreViewController" id="TDG-qZ-PId" customClass="TourStoreViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NUU-5j-11O"/>
                         <viewControllerLayoutGuide type="bottom" id="s0c-SH-X9C"/>
@@ -143,7 +142,7 @@
         <!--我的-->
         <scene sceneID="epK-cE-wAr">
             <objects>
-                <viewController id="C7N-Rg-aRK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyViewController" id="C7N-Rg-aRK" customClass="MyViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HJg-DX-g6i"/>
                         <viewControllerLayoutGuide type="bottom" id="jDf-Wg-TK4"/>

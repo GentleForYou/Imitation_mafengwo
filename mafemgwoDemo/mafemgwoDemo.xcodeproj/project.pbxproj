@@ -17,6 +17,10 @@
 		833167BC1F03FBE400F415F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833167BA1F03FBE400F415F5 /* LaunchScreen.storyboard */; };
 		833167C71F03FBE400F415F5 /* mafemgwoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833167C61F03FBE400F415F5 /* mafemgwoDemoTests.swift */; };
 		833167D21F03FBE400F415F5 /* mafemgwoDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833167D11F03FBE400F415F5 /* mafemgwoDemoUITests.swift */; };
+		8363FDCC1F0544E0004D2691 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363FDCB1F0544E0004D2691 /* HomeViewController.swift */; };
+		8363FDCE1F0544FA004D2691 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363FDCD1F0544FA004D2691 /* DestinationViewController.swift */; };
+		8363FDD01F054515004D2691 /* TourStoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363FDCF1F054515004D2691 /* TourStoreViewController.swift */; };
+		8363FDD21F0545E1004D2691 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8363FDD11F0545E1004D2691 /* MyViewController.swift */; };
 		8372B0281F04074400F5C081 /* PublicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B0271F04074400F5C081 /* PublicConstants.swift */; };
 		8372B0291F04074400F5C081 /* PublicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B0271F04074400F5C081 /* PublicConstants.swift */; };
 		8372B02A1F04074400F5C081 /* PublicConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B0271F04074400F5C081 /* PublicConstants.swift */; };
@@ -69,6 +73,10 @@
 		833167CD1F03FBE400F415F5 /* mafemgwoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mafemgwoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		833167D11F03FBE400F415F5 /* mafemgwoDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mafemgwoDemoUITests.swift; sourceTree = "<group>"; };
 		833167D31F03FBE400F415F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8363FDCB1F0544E0004D2691 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8363FDCD1F0544FA004D2691 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		8363FDCF1F054515004D2691 /* TourStoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourStoreViewController.swift; sourceTree = "<group>"; };
+		8363FDD11F0545E1004D2691 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		8372B0271F04074400F5C081 /* PublicConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicConstants.swift; sourceTree = "<group>"; };
 		8372B02B1F0407A600F5C081 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		8372B02C1F0407A600F5C081 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -243,6 +251,7 @@
 		8372B0371F0408EF00F5C081 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8363FDD11F0545E1004D2691 /* MyViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -290,6 +299,7 @@
 		8372B03D1F04090000F5C081 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8363FDCF1F054515004D2691 /* TourStoreViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -337,6 +347,7 @@
 		8372B0431F04090A00F5C081 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8363FDCD1F0544FA004D2691 /* DestinationViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -384,6 +395,7 @@
 		8372B0491F04091300F5C081 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8363FDCB1F0544E0004D2691 /* HomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -696,11 +708,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8363FDCE1F0544FA004D2691 /* DestinationViewController.swift in Sources */,
 				8372B02D1F0407A600F5C081 /* BaseNavigationController.swift in Sources */,
 				833167B41F03FBE400F415F5 /* ViewController.swift in Sources */,
 				8372B0301F0407A600F5C081 /* MainTabBarController.swift in Sources */,
+				8363FDD21F0545E1004D2691 /* MyViewController.swift in Sources */,
 				8372B0281F04074400F5C081 /* PublicConstants.swift in Sources */,
 				833167B21F03FBE400F415F5 /* AppDelegate.swift in Sources */,
+				8363FDD01F054515004D2691 /* TourStoreViewController.swift in Sources */,
+				8363FDCC1F0544E0004D2691 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
