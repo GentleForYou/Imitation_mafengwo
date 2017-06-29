@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (3.5.1)
+  - Alamofire (4.5.0)
   - Kingfisher (3.10.1)
   - Nimble (7.0.1)
   - PKHUD (4.2.3)
@@ -8,7 +8,7 @@ PODS:
   - SwiftyUserDefaults (3.0.0)
 
 DEPENDENCIES:
-  - Alamofire (~> 3.1)
+  - Alamofire (~> 4.4)
   - Kingfisher
   - Nimble
   - PKHUD (~> 4.0)
@@ -17,7 +17,7 @@ DEPENDENCIES:
   - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
-  Alamofire: 0dfba1184a543e2aa160f4e39cac4e8aba48d223
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   Kingfisher: 33a1b82140fcb14a9fc13f78dfde2a03ff8de8cb
   Nimble: 657d000e11df8aebe27cdaf9d244de7f30ed87f7
   PKHUD: c7692163a09875cbf15827dc581df3c5cf7f1015
@@ -25,6 +25,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
   SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
 
-PODFILE CHECKSUM: 0c940cbe5a87da625834b3476b84657d8cc3485a
+PODFILE CHECKSUM: 10fbff00e0af39b17fd18d2e9e0f2c601faca383
 
 COCOAPODS: 1.1.1
