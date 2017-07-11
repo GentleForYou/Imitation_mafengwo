@@ -31,6 +31,8 @@
 		8372B0301F0407A600F5C081 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B02C1F0407A600F5C081 /* MainTabBarController.swift */; };
 		8372B0311F0407A600F5C081 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B02C1F0407A600F5C081 /* MainTabBarController.swift */; };
 		8372B0321F0407A600F5C081 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372B02C1F0407A600F5C081 /* MainTabBarController.swift */; };
+		83E99C5F1F1506340077F96B /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E99C5D1F1506340077F96B /* HomeTableViewCell.swift */; };
+		83E99C601F1506340077F96B /* HomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83E99C5E1F1506340077F96B /* HomeTableViewCell.xib */; };
 		9D70E8C57502458F19704763 /* Pods_mafemgwoDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9B2747D1C497886FE0EDE00 /* Pods_mafemgwoDemoUITests.framework */; };
 		D7A19FEFF364519EA9F52309 /* Pods_Tests_mafemgwoDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D22BC5E037B84DAF08627E /* Pods_Tests_mafemgwoDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +85,8 @@
 		8372B02B1F0407A600F5C081 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		8372B02C1F0407A600F5C081 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		83E07D47C8741B1DAD3F2999 /* Pods-mafemgwoDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mafemgwoDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-mafemgwoDemo/Pods-mafemgwoDemo.release.xcconfig"; sourceTree = "<group>"; };
+		83E99C5D1F1506340077F96B /* HomeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		83E99C5E1F1506340077F96B /* HomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeTableViewCell.xib; sourceTree = "<group>"; };
 		A121A449B60D33F396273D1C /* Pods_mafemgwoDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mafemgwoDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B2747D1C497886FE0EDE00 /* Pods_mafemgwoDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mafemgwoDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1BA5F47A9832422E9F0E70 /* Pods-mafemgwoDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mafemgwoDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mafemgwoDemoUITests/Pods-mafemgwoDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -391,6 +395,8 @@
 		8372B0481F04091300F5C081 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				83E99C5D1F1506340077F96B /* HomeTableViewCell.swift */,
+				83E99C5E1F1506340077F96B /* HomeTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -548,6 +554,7 @@
 			files = (
 				833167BC1F03FBE400F415F5 /* LaunchScreen.storyboard in Resources */,
 				833167B91F03FBE400F415F5 /* Assets.xcassets in Resources */,
+				83E99C601F1506340077F96B /* HomeTableViewCell.xib in Resources */,
 				833167B71F03FBE400F415F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -716,6 +723,7 @@
 				831E8EDA1F0A6B6500413AC8 /* NetworkTools.swift in Sources */,
 				833167B41F03FBE400F415F5 /* ViewController.swift in Sources */,
 				8372B0301F0407A600F5C081 /* MainTabBarController.swift in Sources */,
+				83E99C5F1F1506340077F96B /* HomeTableViewCell.swift in Sources */,
 				8363FDD21F0545E1004D2691 /* MyViewController.swift in Sources */,
 				8372B0281F04074400F5C081 /* PublicConstants.swift in Sources */,
 				833167B21F03FBE400F415F5 /* AppDelegate.swift in Sources */,

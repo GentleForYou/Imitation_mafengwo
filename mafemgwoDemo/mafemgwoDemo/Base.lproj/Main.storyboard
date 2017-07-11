@@ -76,7 +76,7 @@
         <!--首页-->
         <scene sceneID="Hq7-tB-9ji">
             <objects>
-                <viewController storyboardIdentifier="HomeViewController" id="QQY-N8-1WU" customClass="HomeViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="QQY-N8-1WU" customClass="HomeViewController" customModule="mafemgwoDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n2g-4Q-NdH"/>
                         <viewControllerLayoutGuide type="bottom" id="cxA-xe-0Ju"/>
@@ -84,10 +84,29 @@
                     <view key="view" contentMode="scaleToFill" id="qod-K0-wV7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dPS-3N-gu8">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="QQY-N8-1WU" id="wOp-yS-Wkl"/>
+                                    <outlet property="delegate" destination="QQY-N8-1WU" id="jix-qN-EmM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dPS-3N-gu8" secondAttribute="trailing" id="SDL-pY-kXq"/>
+                            <constraint firstItem="cxA-xe-0Ju" firstAttribute="top" secondItem="dPS-3N-gu8" secondAttribute="bottom" id="d51-5Q-HVL"/>
+                            <constraint firstItem="dPS-3N-gu8" firstAttribute="leading" secondItem="qod-K0-wV7" secondAttribute="leading" id="eEl-G2-tgN"/>
+                            <constraint firstItem="dPS-3N-gu8" firstAttribute="top" secondItem="n2g-4Q-NdH" secondAttribute="bottom" id="res-hH-DU2"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item 1" id="fbS-zV-8O8"/>
                     <navigationItem key="navigationItem" title="首页" id="Vek-TL-igR"/>
+                    <connections>
+                        <outlet property="tableView" destination="dPS-3N-gu8" id="0AA-nS-gSN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y95-w1-lub" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
